@@ -24,13 +24,7 @@
 	<config>
 		<fields name="params">
 			<fieldset name="basic">
-				<field name="email" type="email"
-                        label="JGLOBAL_EMAIL"
-                        description="COM_ADMIN_USER_FIELD_EMAIL_DESC"
-                        required="true"
-                        size="30"
-                        class="inputbox"
-                        validate="email" />
+				<field name="email" type="email" label="JGLOBAL_EMAIL"description="COM_ADMIN_USER_FIELD_EMAIL_DESC"required="true"size="30"class="inputbox"validate="email" />
                 <field name="title" type="text" default="" label="Form title" description="" size="30" />
                 <field name="success_message" type="text" default="" label="Success message" description="" size="300" />
 			</fieldset>
